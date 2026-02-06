@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        
     <title>tech members</title>
 </head>
 
@@ -17,9 +21,9 @@
         <h1>land of programmers</h1>
         <nav>
             <ul class="nav_links">
-                <li><button><a href="/">Home</a></button></li>
-                <li><button><a href="/members">Members</a></button></li>
-                <li><button><a href="/contact">Contact</a></button></li>
+                <li><button class="bnt"><a href="/">Home</a></button></li>
+                <li><button class="bnt"><a href="page web/detail.html">Members</a></button></li>
+                <li><button class="bnt"><a href="/contact">Contact</a></button></li>
             </ul>
         </nav>
     </header>
@@ -45,9 +49,27 @@
                 <button><a href="">View Members</a></button>
             </div>
             <div class="member_images">
-                <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 1" />
-                <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 2" />
-                <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 3" />
+                <div class="desciption">
+                <img src="images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 1" />
+                <p>
+                    Jane Doe - Frontend Developer
+                    biography: Jane is a skilled frontend developer with 5 years of experience in building responsive and user-friendly web applications. She specializes in HTML, CSS, and JavaScript, and has a keen eye for design.
+                </p>
+                </div>
+                <div class="desciption">
+                    <img src="images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 2" />
+                    <p>
+                        John Smith - Backend Developer
+                        biography: John is a backend developer with expertise in Node.js, Python, and database management. He has a strong background in building scalable and secure server-side applications.
+                    </p>
+                </div>
+                <div class="desciption">
+                    <img src="images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Member 3" />
+                    <p>
+                        Alice Johnson - Full Stack Developer
+                        biography: Alice is a full stack developer with experience in both frontend and backend technologies. She is proficient in React, Angular, Express.js, and MongoDB.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
