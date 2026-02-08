@@ -2,6 +2,11 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <title>Exemple de page</title>
 </head>
 <body>
@@ -9,20 +14,21 @@
         <div>
 
             <div>
-                <img src="image-principale.jpg" alt="Image principale" width="300" height="200">
+                <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Image principale" width="300" height="200">
                 
                 <p>Description</p>
                 <button>OK</button>
             </div>
-            <div>
+            <div class="detail">
                 <h2>Edite pane</h2>
 
-                <h4>Head Photo</h4>
+                <div class="description-del">
                 <p>
                     Here's how it's looking when you upload it for the first
                     time and we're letting the preview to view from this
                     perspective instead of a carousel.
                 </p>
+                </div>
 
                 <label for="name">Valid Name</label><br>
                 <input type="text" id="name"><br><br>
@@ -30,21 +36,30 @@
                 <label for="desc">Description</label><br>
                 <textarea id="desc" rows="4" cols="30"></textarea>
 
-                <p>V/S. Fragrance</p>
             </div>
 
         </div>
 
         <hr>
 
-        <div>
-            <img src="img1.jpg" alt="Image 1" width="120" height="80">
-            <img src="img2.jpg" alt="Image 2" width="120" height="80">
-            <img src="img3.jpg" alt="Image 3" width="120" height="80">
-            <img src="img4.jpg" alt="Image 4" width="120" height="80">
+        <div class="galerie">
+            <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Image 1" width="120" height="80">
+            <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Image 2" width="120" height="80">
+            <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Image 3" width="120" height="80">
+            <img src="/images/femme-aux-longs-cheveux-bruns-chemise-rose_90220-2940.avif" alt="Image 4" width="120" height="80">
         </div>
 
     </div>
+     <footer>
+        <div class="social-icons">
+            <a href="#"><img src="/images/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="/images/youtube.png" alt="YouTube" /></a>
+            <a href="#"><img src="/images/instagram.png" alt="LinkedIn" /></a>
+        </div>
+        <div class="gift">
+            <p>Made with ❤️ by John Semenou</p>
+        </div>
+    </footer>
 
 </body>
 </html>
